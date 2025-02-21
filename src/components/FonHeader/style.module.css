@@ -1,0 +1,9 @@
+.fon_header{
+    margin-top: -220px;
+    margin-left: 150px;
+    font-weight: 800;
+    font-size: 170px;
+    z-index: 0;
+
+    color: rgb(255, 255, 255,0.12);
+}

@@ -1,0 +1,38 @@
+.body {
+  margin: 0 auto;
+  width: 1920px;
+  background-color: rgba(72, 66, 131, 1);
+}
+
+.contianer {
+  margin: 0 auto;
+  width: 1280px;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.contianer section {
+  width: 680px;
+  height: 580px;
+}
+
+.about_section {
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 30px;
+}
+
+.about_section p {
+  max-width: 380px;
+  font-size: 16px;
+}
+
+.about_section footer {
+ 
+  text-align: right;
+}

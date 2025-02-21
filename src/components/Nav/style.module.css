@@ -1,0 +1,22 @@
+.nav{
+    width: 680px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    transform: scale(1.2);
+}
+
+img{
+    cursor: pointer;
+}

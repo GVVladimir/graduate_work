@@ -1,0 +1,40 @@
+.container_contacts {
+  margin: 0 auto;
+  padding: 30px 0;
+  max-width: 1120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: black;
+}
+
+.container_contacts a {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.container_contacts section{
+    width: 440px;
+    display: flex;
+}
+.container_socialNetwork {
+   align-items: start;
+   gap: 20px;
+}
+
+.contacts { 
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact_img {
+  width: 44px;
+  height: 44px;
+}
+
+.map{
+  width: 680px;
+  height: 498px;
+}

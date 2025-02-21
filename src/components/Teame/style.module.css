@@ -1,0 +1,15 @@
+.team {
+  width: 380px;
+  height: 560px;
+  color: antiquewhite;
+  z-index: 5;
+}
+
+.team img {
+  width: 100%;
+  height: 80%;
+}
+
+.team h2 {
+  margin-top: 20px;
+}
