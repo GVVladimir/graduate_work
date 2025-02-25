@@ -1,15 +1,16 @@
-import { YMaps, Map } from '@pbe/react-yandex-maps';
+import style from "./style.module.css";
+import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 
-type Props={
-    center:namber,
-    zoom: namber
-}
+const ComponentMap = () => (
+  <YMaps>
+    <Map
+      className={style.map}
+      defaultState={{ center: [59.938784, 30.314997], zoom: 11 }}
+    >
+      <Placemark geometry={[59.938784, 30.314997]} />
+      <Placemark geometry={[59.93479, 30.335712]} />
+    </Map>
+  </YMaps>
+);
 
-const Map =() => {
-    return(
-     <YMaps>
- <Map defaultState={{ center: [55.75, 37.57], zoom: 9 }} />
-     </YMaps>
-    )
-}
-export default Map
+export default ComponentMap;

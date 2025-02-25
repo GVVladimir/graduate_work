@@ -1,12 +1,23 @@
-.container_contacts {
+.contactsBlock {
+  padding-top: 54px;
   margin: 0 auto;
+  max-width: 1125px;
+  display: flex;
+  align-items: center;
+}
+
+.container_contacts {
   padding: 30px 0;
   max-width: 1120px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  gap: 30px;
   color: black;
+}
+
+.container_contacts h2 {
+  font-family: "Intro";
+  font-size: 30px;
 }
 
 .container_contacts a {
@@ -15,18 +26,21 @@
   line-height: 42px;
 }
 
-.container_contacts section{
-    width: 440px;
-    display: flex;
+.container_contacts section {
+  width: 440px;
+  display: flex;
 }
 .container_socialNetwork {
-   align-items: start;
-   gap: 20px;
+  align-items: start;
+  gap: 20px;
 }
 
-.contacts { 
+.contacts {
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
+}
+.contacts h4 {
+  cursor: pointer;
 }
 
 .contact_img {
@@ -34,7 +48,19 @@
   height: 44px;
 }
 
-.map{
+.map {
   width: 680px;
   height: 498px;
+}
+
+.contacts_Info {
+  position: absolute;
+  margin-top: -74px;
+  margin-left: 89px;
+  max-width: 426px;
+  max-height: 88px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: rgb(241, 240, 240);
+  z-index: 5;
 }
