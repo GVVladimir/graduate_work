@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
-import ProductSelections from "./pages/ProductSelection";
 import OurTeam from "./pages/OurTeam";
 import ContactsAndMap from "./pages/Contacts";
+import ProductSelections from "./pages/ProductSelection";
 
 export const router = createBrowserRouter([
   {
@@ -16,7 +16,22 @@ export const router = createBrowserRouter([
   },
   {
     path: "/ProductSelection",
-    element: <ProductSelections />,
+    element: <ProductSelections data={{
+      id: 0,
+      vendorСode: "",
+      inStock: 0,
+      title: "",
+      description: "",
+      imgUrl: "",
+      stars: 0,
+      sizes: [],
+      price: 0,
+      oldPrice: 0,
+      gender: "",
+      color: "",
+      compound: "",
+      country: ""
+    }} />,
   },
   {
     path: "/OurTeam",
