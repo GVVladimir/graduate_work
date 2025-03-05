@@ -9,7 +9,7 @@ const Nav = () => {
     <Link to="/ProductSelection">Подбор товара</Link>
     <Link to="/OurTeam">Наша команда</Link>
     <a>Доставка и оплата</a>
-    <a>Контакты</a>
+    <Link to="/Contacts">Контакты</Link>
     <a>Корзина</a>
     <a><img src={vector} alt="" /></a>
   

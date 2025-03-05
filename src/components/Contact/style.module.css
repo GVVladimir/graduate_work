@@ -39,8 +39,10 @@
   flex-direction: column;
   gap: 30px;
 }
-.contacts h4 {
+h4 {
+  font-size: 14px;
   cursor: pointer;
+  color: rgb(178, 181, 187, 1);
 }
 
 .contact_img {

@@ -1,5 +1,5 @@
 import Catalog from "../../components/catalog/Catalog";
-import ContactsBlock from "../../components/Contacts/contactsBlock";
+import ContactsBlock from "../../components/Contact/contactsBlock";
 import Footer from "../../components/Footer";
 import HaveQuestion from "../../components/HaveQuestion";
 import Header from "../../components/Header/Header";

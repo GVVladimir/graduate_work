@@ -19,7 +19,7 @@ const Catalog: FC<Props> = () => {
           {allProducts.slice(0, 9).map((product) => {
             return (
               <div>
-                <Product data={product} />;
+                <Product data={product} />{" "}
               </div>
             );
           })}

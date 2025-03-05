@@ -4,8 +4,14 @@ import Product from "../../components/catalog/ProductSelection";
 import style from "./style.module.css";
 import allProducts from "../../data/snecears.json";
 import Footer from "../../components/Footer";
+import { catalogKros } from "../../types";
+import { FC } from "react";
 
-const ProductSelections = () => {
+type Props = {
+  data: catalogKros;
+};
+
+const ProductSelections: FC<Props> = () => {
   return (
     <>
       <Header />
@@ -13,7 +19,7 @@ const ProductSelections = () => {
         <h2 className={style.title}>Каталог</h2>
         <div className={style.content}>
           <Price />
-          <section className={style.container_section}>
+          <section  className={style.container_section}>
             {allProducts.map((product) => {
               return (
                 <div>

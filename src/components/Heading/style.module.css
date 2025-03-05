@@ -1,32 +1,32 @@
-.heading{
-    margin-top: 50px;
-    width: 580px;
-    z-index: 5;
+.heading {
+  margin-top: 50px;
+  width: 580px;
 }
 
-.heading_h1{
-  
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 50px;
+.heading_h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
 }
 
 .heading_text {
-    font-size: 18px;
-    line-height: 30px;
+  font-size: 18px;
+  line-height: 30px;
 }
-.heading_btn{
-    width: 250px;
-    height: 60px;
-    text-align: center;
-    background-color: rgba(241, 79, 79, 1);
-    color: #fff;
-    margin-top: 50px;
-    border-radius: 4px;
-    border: none;
+.heading_btn {
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  background-color: rgba(204, 73, 73, 1);
+  color: #fff;
+  margin-top: 50px;
+  border-radius: 4px;
+  border: none;
+
+  z-index: 1;
 }
 
-.heading_btn:hover{
-    background-color: rgba(261, 95, 79, 1);
-    cursor: pointer;
+.heading_btn:hover {
+  background-color: rgba(261, 95, 79, 1);
+  cursor: pointer;
 }

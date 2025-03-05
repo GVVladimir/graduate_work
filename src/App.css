@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
-@font-face{
-font-family: "Intro";
-src: url('fonts/intro.woff2');
+@font-face {
+  font-family: "Intro";
+  src: url("fonts/intro.woff2");
+}
+
+body {
+  position: relative;
 }
 
 #root {
@@ -18,9 +22,11 @@ a {
   color: inherit;
 }
 
-.container{
-    max-width: 1200px;
-    margin: auto 0;
+ul li {
+  list-style-type: none;
 }
 
-
+.container {
+  max-width: 1200px;
+  margin: auto 0;
+}
