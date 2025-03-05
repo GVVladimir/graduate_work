@@ -1,6 +1,7 @@
 {
   "name": "graduate_work",
   "private": true,
+  "homepage": "https://maggieshpileva.github.io/BeansProject",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
